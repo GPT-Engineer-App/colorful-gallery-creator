@@ -4,9 +4,33 @@ import { FaSun, FaMoon, FaInstagram, FaTwitter, FaFacebookF, FaEnvelope } from "
 const Index = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const gallerySeries = [
-    { id: 1, title: "Landscapes", images: ['https://images.unsplash.com/photo-1707345512638-997d31a10eaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MXwxfHNlYXJjaHwxfHxsYW5kc2NhcGV8ZW58MHx8fHwxNzA4ODc2MzcxfDA&ixlib=rb-4.0.3&q=80&w=1080'] },
-    { id: 2, title: "Portraits", images: ['https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdHxlbnwwfHx8fDE3MDg4NzYzNzF8MA&ixlib=rb-4.0.3&q=80&w=1080'] },
-    { id: 3, title: "City Life", images: ['https://images.unsplash.com/photo-1518242007602-8d2524b53ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjaXR5JTIwbGlmZXxlbnwwfHx8fDE3MDg4NzYzNzJ8MA&ixlib=rb-4.0.3&q=80&w=1080'] },
+    {
+      id: 1,
+      title: "Landscapes",
+      images: [
+        "https://images.unsplash.com/photo-1707345512638-997d31a10eaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MXwxfHNlYXJjaHwxfHxsYW5kc2NhcGV8ZW58MHx8fHwxNzA4ODc2MzcxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+        "https://images.unsplash.com/landscape-photo-2", // Placeholder URL
+        "https://images.unsplash.com/landscape-photo-3", // Placeholder URL
+      ],
+    },
+    {
+      id: 2,
+      title: "Portraits",
+      images: [
+        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdHxlbnwwfHx8fDE3MDg4NzYzNzF8MA&ixlib=rb-4.0.3&q=80&w=1080",
+        "https://images.unsplash.com/portraits-photo-2", // Placeholder URL
+        "https://images.unsplash.com/portraits-photo-3", // Placeholder URL
+      ],
+    },
+    {
+      id: 3,
+      title: "City Life",
+      images: [
+        "https://images.unsplash.com/photo-1518242007602-8d2524b53ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjaXR5JTIwbGlmZXxlbnwwfHx8fDE3MDg4NzYzNzJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+        "https://images.unsplash.com/city-life-photo-2", // Placeholder URL
+        "https://images.unsplash.com/city-life-photo-3", // Placeholder URL
+      ],
+    },
     // ... add more series as needed
   ];
 
